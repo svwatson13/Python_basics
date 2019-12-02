@@ -22,5 +22,38 @@ print('Welcome <person>, you were born on the year <date_birth>')
 ## This is us interpolating values
 print(f'Welcome {name}, year are {age} old')
 print(f'Welcome {name}, you were born on the year {year-age}')
+print('Welcome {}, you were born on the year {}'.format(name, year-age))
 
-## Useful method for stings
+# Useful method for stings
+example_string = " HELLoo "
+## Remove trailing white spaces
+print(example_string.strip())
+## Count for specifics e.g number of L's in string:
+print(example_string.count('L'))
+print(example_string.lower())
+print(example_string.upper())
+## First letter capital
+print(example_string.capitalize())
+## Chaining methods
+print(example_string.strip().capitalize())
+
+## Learning and using .split()
+### Splits where you tell it e.g splitting the white space or where there is a letter i
+text_to_split = 'this is some example text in our file'
+results_split = text_to_split.split(' ')
+results_split = text_to_split.split('i')
+print(results_split)
+
+
+# Standard built in functions
+## length - not dependent upon the object(string)
+print(len(example_string))
+
+## casting and int
+str_string = '1990'
+## String --> Int
+int_number = int(str_string)
+print(type(int_number))
+## Int --> String
+new_str = str(int_number)
+print(type(new_str))
