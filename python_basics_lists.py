@@ -54,3 +54,13 @@ print(places_to_live[::-1]) # Backwards
 mortal_enemies = ('Mario', 'Sailormoon', 'MOON CAKE', 'Jerry', 'Berry')
 print(type(mortal_enemies))
 
+#Example of creating amazing list for end of the world survival
+list_of_kit = []
+item_1 = input('What is your first item to keep?')
+list_of_kit.append(item_1)
+item_2 = input('What is your first item to keep2?')
+list_of_kit.append(item_2)
+item_3 = input('What is your first item to keep3?')
+list_of_kit.append(item_3)
+print("Hey there partner! You have a nice list of stuff!")
+print(list_of_kit)
